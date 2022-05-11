@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html style="display: none;" lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        © Material Theme
+        https://github.com/bollnh/hexo-theme-material
+        Version: 1.5.6 -->
+    <script>
+        window.materialVersion = "1.5.6"
+        // Delete localstorage with these tags
+        window.oldVersion = [
+            'codestartv1',
+            '1.3.4',
+            '1.4.0',
+            '1.4.0b1',
+            '1.5.0',
+            '1.5.2',
+            '1.5.5'
+        ]
+    </script>
+
+    <!-- dns prefetch -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://.disqus.com"/>
+
+
+
+
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+
+
+
+
+
+    <!-- Meta & Info -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Title -->
+    
+    <title>
+        
+            Paper Reading | 
+        
+        Welcome
+    </title>
+
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.svg">
+    <link rel="icon" href="/img/favicon.svg">
+
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" itemprop="description" content="">
+    <meta name="keywords" content="">
+    <meta name="theme-color" content="#0097A7">
+
+    <!-- Disable Fucking Bloody Baidu Tranformation -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+
+        
+            <script src="/js/ie-blocker.en.js"></script>
+        
+    <![endif]-->
+
+    <!-- Import lsloader -->
+    <script>(function(){window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}};lsloader.removeLS=function(a){try{localStorage.removeItem(a)}catch(b){}};lsloader.setLS=function(a,c){try{localStorage.setItem(a,c)}catch(b){}};lsloader.getLS=function(a){var c="";try{c=localStorage.getItem(a)}catch(b){c=""}return c};versionString="/*"+(window.materialVersion||"unknownVersion")+"*/";lsloader.clean=function(){try{var b=[];for(var a=0;a<localStorage.length;a++){b.push(localStorage.key(a))}b.forEach(function(e){var f=lsloader.getLS(e);if(window.oldVersion){var d=window.oldVersion.reduce(function(g,h){return g||f.indexOf("/*"+h+"*/")!==-1},false);if(d){lsloader.removeLS(e)}}})}catch(c){}};lsloader.clean();lsloader.load=function(f,a,b,d){if(typeof b==="boolean"){d=b;b=undefined}d=d||false;b=b||function(){};var e;e=this.getLS(f);if(e&&e.indexOf(versionString)===-1){this.removeLS(f);this.requestResource(f,a,b,d);return}if(e){var c=e.split(versionString)[0];if(c!=a){console.log("reload:"+a);this.removeLS(f);this.requestResource(f,a,b,d);return}e=e.split(versionString)[1];if(d){this.jsRunSequence.push({name:f,code:e});this.runjs(a,f,e)}else{document.getElementById(f).appendChild(document.createTextNode(e));b()}}else{this.requestResource(f,a,b,d)}};lsloader.requestResource=function(b,e,a,c){var d=this;if(c){this.iojs(e,b,function(h,f,g){d.setLS(f,h+versionString+g);d.runjs(h,f,g)})}else{this.iocss(e,b,function(f){document.getElementById(b).appendChild(document.createTextNode(f));d.setLS(b,e+versionString+f)},a)}};lsloader.iojs=function(d,b,g){var a=this;a.jsRunSequence.push({name:b,code:""});try{var f=new XMLHttpRequest();f.open("get",d,true);f.onreadystatechange=function(){if(f.readyState==4){if((f.status>=200&&f.status<300)||f.status==304){if(f.response!=""){g(d,b,f.response);return}}a.jsfallback(d,b)}};f.send(null)}catch(c){a.jsfallback(d,b)}};lsloader.iocss=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.iofonts=function(f,c,h,a){var b=this;try{var g=new XMLHttpRequest();g.open("get",f,true);g.onreadystatechange=function(){if(g.readyState==4){if((g.status>=200&&g.status<300)||g.status==304){if(g.response!=""){h(g.response);a();return}}b.cssfallback(f,c,a)}};g.send(null)}catch(d){b.cssfallback(f,c,a)}};lsloader.runjs=function(f,c,e){if(!!c&&!!e){for(var b in this.jsRunSequence){if(this.jsRunSequence[b].name==c){this.jsRunSequence[b].code=e}}}if(!!this.jsRunSequence[0]&&!!this.jsRunSequence[0].code&&this.jsRunSequence[0].status!="failed"){var a=document.createElement("script");a.appendChild(document.createTextNode(this.jsRunSequence[0].code));a.type="text/javascript";document.getElementsByTagName("head")[0].appendChild(a);this.jsRunSequence.shift();if(this.jsRunSequence.length>0){this.runjs()}}else{if(!!this.jsRunSequence[0]&&this.jsRunSequence[0].status=="failed"){var d=this;var a=document.createElement("script");a.src=this.jsRunSequence[0].path;a.type="text/javascript";this.jsRunSequence[0].status="loading";a.onload=function(){d.jsRunSequence.shift();if(d.jsRunSequence.length>0){d.runjs()}};document.body.appendChild(a)}}};lsloader.tagLoad=function(b,a){this.jsRunSequence.push({name:a,code:"",path:b,status:"failed"});this.runjs()};lsloader.jsfallback=function(c,b){if(!!this.jsnamemap[b]){return}else{this.jsnamemap[b]=b}for(var a in this.jsRunSequence){if(this.jsRunSequence[a].name==b){this.jsRunSequence[a].code="";this.jsRunSequence[a].status="failed";this.jsRunSequence[a].path=c}}this.runjs()};lsloader.cssfallback=function(e,c,b){if(!!this.cssnamemap[c]){return}else{this.cssnamemap[c]=1}var d=document.createElement("link");d.type="text/css";d.href=e;d.rel="stylesheet";d.onload=d.onerror=b;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(d,a)};lsloader.runInlineScript=function(c,b){var a=document.getElementById(b).innerText;this.jsRunSequence.push({name:c,code:a});this.runjs()}})();</script>
+
+    <!-- Import queue -->
+    <script>function Queue(){this.dataStore=[];this.offer=b;this.poll=d;this.execNext=a;this.debug=false;this.startDebug=c;function b(e){if(this.debug){console.log("Offered a Queued Function.")}if(typeof e==="function"){this.dataStore.push(e)}else{console.log("You must offer a function.")}}function d(){if(this.debug){console.log("Polled a Queued Function.")}return this.dataStore.shift()}function a(){var e=this.poll();if(e!==undefined){if(this.debug){console.log("Run a Queued Function.")}e()}}function c(){this.debug=true}}var queue=new Queue();</script>
+
+    <!-- Import CSS -->
+    
+        <style id="material_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_css","/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+        <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","/css/style.min.css?uVzgA6RLrOm13Ukw8Qgy+A==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+        
+
+    
+
+    
+
+    <!-- Config CSS -->
+
+<!-- Other Styles -->
+<style>
+  body, html {
+    font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    overflow-x: hidden !important;
+  }
+  
+  code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  a {
+    color: #00838F;
+  }
+
+  .mdl-card__media,
+  #search-label,
+  #search-form-label:after,
+  #scheme-Paradox .hot_tags-count,
+  #scheme-Paradox .sidebar_archives-count,
+  #scheme-Paradox .sidebar-colored .sidebar-header,
+  #scheme-Paradox .sidebar-colored .sidebar-badge{
+    background-color: #0097A7 !important;
+  }
+
+  /* Sidebar User Drop Down Menu Text Color */
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+  #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus {
+    color: #0097A7 !important;
+  }
+
+  #post_entry-right-info,
+  .sidebar-colored .sidebar-nav li:hover > a,
+  .sidebar-colored .sidebar-nav li:hover > a i,
+  .sidebar-colored .sidebar-nav li > a:hover,
+  .sidebar-colored .sidebar-nav li > a:hover i,
+  .sidebar-colored .sidebar-nav li > a:focus i,
+  .sidebar-colored .sidebar-nav > .open > a,
+  .sidebar-colored .sidebar-nav > .open > a:hover,
+  .sidebar-colored .sidebar-nav > .open > a:focus,
+  #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a {
+    color: #0097A7 !important;
+  }
+
+  .toTop {
+    background: #757575 !important;
+  }
+
+  .material-layout .material-post>.material-nav,
+  .material-layout .material-index>.material-nav,
+  .material-nav a {
+    color: #757575;
+  }
+
+  #scheme-Paradox .MD-burger-layer {
+    background-color: #757575;
+  }
+
+  #scheme-Paradox #post-toc-trigger-btn {
+    color: #757575;
+  }
+
+  .post-toc a:hover {
+    color: #00838F;
+    text-decoration: underline;
+  }
+
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+      body{
+        background-image: url(/img/bkg.png);
+      }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+      .fade {
+        transition: all 800ms linear;
+        -webkit-transform: translate3d(0,0,0);
+        -moz-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        -o-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        opacity: 1;
+      }
+
+      .fade.out{
+        opacity: 0;
+      }
+    </style>
+
+
+<!-- Import Font -->
+<!-- Import Roboto -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+
+<!-- Import Material Icons -->
+
+
+    <style id="material_icons"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("material_icons","/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+
+
+
+
+    <!-- Import jQuery -->
+    
+        <script>lsloader.load("jq_js","/js/jquery.min.js?ezyEvm8ST5CGfpA+kFFi1g==", true)</script>
+    
+
+    <!-- WebAPP Icons -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Welcome">
+    <meta name="msapplication-starturl" content="http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/">
+    <meta name="msapplication-navbutton-color" content="#0097A7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Welcome">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/img/favicon.svg">
+
+    <!-- Site Verification -->
+    
+    
+
+    <!-- RSS -->
+    
+
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Paper Reading | Welcome">
+    <meta property="og:image" content="/img/favicon.svg">
+    <meta property="og:description" content="">
+    
+
+    
+        <meta property="article:published_time" content="Thu Apr 21 2022 12:37:43 GMT+0800">
+        <meta property="article:modified_time" content="Wed May 11 2022 15:23:14 GMT+0800">
+    
+
+    <!-- The Twitter Card protocol -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Add canonical link for SEO -->
+    
+        <link rel="canonical" href="http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/index.html" />
+    
+
+    <!-- Structured-data for SEO -->
+    
+        
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/index.html",
+    "headline": "Paper Reading",
+    "datePublished": "Thu Apr 21 2022 12:37:43 GMT+0800",
+    "dateModified": "Wed May 11 2022 15:23:14 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "Oliverttt",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/logo.png"
+        },
+        "description": "Hi, nice to meet you"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Welcome",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.svg"
+        }
+    },
+    "keywords": "",
+    "description": "",
+}
+</script>
+
+
+    
+
+    <!-- Analytics -->
+    
+    
+    
+
+    <!-- Custom Head -->
+    
+
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+    
+        <body id="scheme-Paradox" class="lazy">
+            <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+                
+
+                <!-- Main Container -->
+                <main class="material-layout__content" id="main">
+
+                    <!-- Top Anchor -->
+                    <div id="top"></div>
+
+                    
+                        <!-- Hamburger Button -->
+                        <button class="MD-burger-icon sidebar-toggle">
+                            <span id="MD-burger-id" class="MD-burger-layer"></span>
+                        </button>
+                    
+
+                    <!-- Post TOC -->
+
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Papers"><span class="post-toc-number">1.</span> <span class="post-toc-text">Papers</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-How-Machine-Learning-Is-Solving-the-Binary-Function-Similarity-Problem"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">1.How Machine Learning Is Solving the Binary Function Similarity Problem</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%AF%94%E5%AF%B9%E9%9D%A2%E4%B8%B4%E7%9A%84%E9%97%AE%E9%A2%98"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">二进制比对面临的问题</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E8%AE%BA%E6%96%87%E4%B8%BB%E8%A6%81%E8%B4%A1%E7%8C%AE"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">论文主要贡献</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#The-Binary-Function-Similarity-Problem"><span class="post-toc-number">1.1.3.</span> <span class="post-toc-text">The Binary Function Similarity Problem</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Definition-%E5%AE%9A%E4%B9%89"><span class="post-toc-number">1.1.3.1.</span> <span class="post-toc-text">Definition 定义</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E8%A1%A1%E9%87%8F%E5%87%BD%E6%95%B0%E7%9B%B8%E4%BC%BC%E6%80%A7"><span class="post-toc-number">1.1.3.2.</span> <span class="post-toc-text">衡量函数相似性</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Function-Representations-%E5%87%BD%E6%95%B0%E8%A1%A8%E7%A4%BA"><span class="post-toc-number">1.1.3.3.</span> <span class="post-toc-text">Function Representations 函数表示</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E9%80%89%E6%8B%A9%E7%9A%84%E6%96%B9%E6%B3%95"><span class="post-toc-number">1.1.3.4.</span> <span class="post-toc-text">选择的方法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95%E5%AE%9E%E9%AA%8C%E8%AF%84%E4%BC%B0"><span class="post-toc-number">1.1.3.5.</span> <span class="post-toc-text">机器学习方法实验评估</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#%E4%BA%8C%E3%80%81%E5%9F%BA%E4%BA%8E%E4%BB%A3%E7%A0%81%E7%9B%B8%E4%BC%BC%E6%80%A7%E6%AF%94%E8%BE%83%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E7%A8%8B%E5%BA%8F%E6%BC%8F%E6%B4%9E%E6%A3%80%E6%B5%8B%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">二、基于代码相似性比较的二进制程序漏洞检测技术研究</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E5%9F%BA%E4%BA%8E%E8%AF%AD%E4%B9%89%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BB%A3%E7%A0%81%E5%87%BD%E6%95%B0%E7%BA%A7%E7%9B%B8%E4%BC%BC%E6%80%A7%E6%AF%94%E8%BE%83"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">基于语义学习模型的二进制代码函数级相似性比较</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%EF%BC%881%EF%BC%89%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E5%92%8C%E5%90%91%E9%87%8F%E5%B5%8C%E5%85%A5"><span class="post-toc-number">1.2.1.1.</span> <span class="post-toc-text">（1）特征提取和向量嵌入</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%EF%BC%882%EF%BC%89%E8%AF%AD%E4%B9%89%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83"><span class="post-toc-number">1.2.1.2.</span> <span class="post-toc-text">（2）语义学习模型训练</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%EF%BC%883%EF%BC%89%E5%AE%9E%E9%AA%8C%E8%AF%84%E4%BC%B0"><span class="post-toc-number">1.2.1.3.</span> <span class="post-toc-text">（3）实验评估</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E9%97%AE%E9%A2%98%E5%88%86%E6%9E%90"><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">问题分析</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Gemini%EF%BC%9ANeural-Network-based-Graph-Embedding-for-Cross-Platform-Binary-Code-Similarity-Detection"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Gemini：Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity Detection</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E7%8E%B0%E6%9C%89%E5%B7%A5%E4%BD%9C%E9%9D%A2%E4%B8%B4%E7%9A%84%E9%97%AE%E9%A2%98"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">现有工作面临的问题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E8%AE%BE%E8%AE%A1%E7%9B%B8%E4%BC%BC%E6%80%A7%E6%A3%80%E6%B5%8B%E5%87%BD%E6%95%B0%E7%9A%84%E5%9B%B0%E9%9A%BE%E2%80%94%E2%80%94%E8%B7%A8%E5%B9%B3%E5%8F%B0%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%A3%80%E7%B4%A2"><span class="post-toc-number">1.3.1.1.</span> <span class="post-toc-text">设计相似性检测函数的困难——跨平台二进制检索</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#%E6%88%91%E4%BB%AC%E7%9A%84%E6%A8%A1%E5%9E%8B"><span class="post-toc-number">1.3.1.2.</span> <span class="post-toc-text">我们的模型</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Siamese-Signature-Verification-Using-a-%E2%80%9CSiamese%E2%80%9D-Time-Delay-Neural-Network"><span class="post-toc-number">1.3.2.</span> <span class="post-toc-text">Siamese: Signature Verification Using a “Siamese” Time Delay Neural Network</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BB%A3%E7%A0%81%E7%9B%B8%E4%BC%BC%E6%80%A7%E6%90%9C%E7%B4%A2%E7%A0%94%E7%A9%B6%E8%BF%9B%E5%B1%95"><span class="post-toc-number">1.3.3.</span> <span class="post-toc-text">二进制代码相似性搜索研究进展</span></a></li></ol></li></ol></li></ol>
+    </ul>
+    
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        
+            <!-- Random Thumbnail -->
+            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script>
+
+        
+    
+            <p class="article-headline-p">
+                Paper Reading
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/logo.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Oliverttt</strong>
+        <span>Apr 21, 2022</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Paper Reading&url=http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/index.html&pic=http://example.com/img/favicon.svg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Weibo
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Paper Reading&url=http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/index.html&via=Oliverttt" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                Share to Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+    
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h1 id="Papers"><a href="#Papers" class="headerlink" title="Papers"></a>Papers</h1><p>[toc]</p>
+<hr>
+<h2 id="1-How-Machine-Learning-Is-Solving-the-Binary-Function-Similarity-Problem"><a href="#1-How-Machine-Learning-Is-Solving-the-Binary-Function-Similarity-Problem" class="headerlink" title="1.How Machine Learning Is Solving the Binary Function Similarity Problem"></a>1.How Machine Learning Is Solving the Binary Function Similarity Problem</h2><h3 id="二进制比对面临的问题"><a href="#二进制比对面临的问题" class="headerlink" title="二进制比对面临的问题"></a>二进制比对面临的问题</h3><blockquote>
+<ul>
+<li>当前论文复现困难<blockquote>
+<ol>
+<li>作者提供的工具在复现时无法达到论文中的结果</li>
+<li>论文中的代码在不同的数据集上就无法运行</li>
+<li>复现一个实验要耗费很长的时间</li>
+</ol>
+</blockquote>
+</li>
+<li>评估结果不透明<blockquote>
+<ol>
+<li>由于数据集(编译环境、系统配置、正负样本选择)、评估指标、样本处理指标不同，各论文的结果不具有比较性</li>
+</ol>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<h3 id="论文主要贡献"><a href="#论文主要贡献" class="headerlink" title="论文主要贡献"></a>论文主要贡献</h3><p>我们选择并比较十种最具有代表性的方法和它们的变种，这些方法包括了计算机安全、编程语言分析、机器学习三个领域。<br>提出一个新的数据集，创建了一个常用的基准。<br>我们发现简单的方法，例如模糊哈希在简单设定下有好的效果，但是在复杂情境下效果不好。图神经网络在几乎所有任务中都取得了最好的效果，运行时间也是最快的。</p>
+<h3 id="The-Binary-Function-Similarity-Problem"><a href="#The-Binary-Function-Similarity-Problem" class="headerlink" title="The Binary Function Similarity Problem"></a>The Binary Function Similarity Problem</h3><h4 id="Definition-定义"><a href="#Definition-定义" class="headerlink" title="Definition 定义"></a>Definition 定义</h4><ul>
+<li><p><strong>二进制函数相似性</strong><br> aims at computing a numeric value that captures the “similarity” between a pair of functions in their binary representation, raw bytes (i.e., machine code) constituting the body of the function, as produced by a compiler.<br> 即在其二进制表示、原始表示上捕捉函数级别的“相似性”，其它的论文可能关注更低层次（基本块）或更高层次（整个程序）上的相似性。</p>
+</li>
+<li><p><strong>什么样的函数是相似的</strong><br>For this paper, we consider two functions as “similar” if they have been compiled from the same source code, independently from the compiler, its version, its compilation flags, or even the architecture the function has been compiled to (e.g., x86, ARM).<br>我们将从同样源码，不同编译器、不同编译选项、不同编译架构的函数定义为相似的。因此，两个相似的函数可能差别巨大。</p>
+</li>
+</ul>
+<hr>
+<h4 id="衡量函数相似性"><a href="#衡量函数相似性" class="headerlink" title="衡量函数相似性"></a>衡量函数相似性</h4><ul>
+<li><p><strong>Direct vs indirect Comparision</strong></p>
+<ul>
+<li><strong>Direct Comparision</strong><br>机器学习方法，需要遍历整个数据集中的函数，并将待分析函数的特征与所有的函数特征进行比对。<br>针对上述问题的解决方法是索引策略，使用基于树的数据结构和位置敏感哈希（近似最近邻搜索）等技术预过滤可能相似的候选对象</li>
+<li><strong>Indirect Comparision 机器学习方法</strong><br>将输入特征降维成低维表示，并运用基于距离的方法比较相似性，这种方法可以一次性的将待分析的函数与样本库中的大量特征进行比对，效率更高。<ol>
+<li><em><strong>模糊散列</strong></em><br>低维表示的一个流行例子是模糊散列。模糊散列是由不同于传统密码散列的算法产生的，因为它们被有意设计为将相似的输入值映射到相似的散列。</li>
+<li><em><strong>嵌入</strong></em><br>语义相似的输入被映射到彼此接近的点。<br>机器学习模型的目标是学习如何生成嵌入，使相似函数之间的相似性最大化，并使不同函数之间的相似性最小化。<blockquote>
+<ol>
+<li><em><strong>代码嵌入</strong></em><br> 汇编代码嵌入通常受到它们可以处理的不同指令数量的影响（所谓的词汇表外问题（OOV））。<br> 指令或基本块嵌入有时被用来通过使用其他算法（如最长公共子序列）来计算函数相似性，或者它们被用作更复杂模型的一部分。</li>
+<li><em><strong>图嵌入</strong></em><br> 这些嵌入可以通过自定义算法或更复杂的机器学习技术生成，如图形神经网络（GNN），可以更好的基于cfg捕捉跨架构的特征。<br> 图嵌入方法通常还将每个基本块的信息编码到对应的图节点中，以增加更多的表现力。</li>
+</ol>
+</blockquote>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h4 id="Function-Representations-函数表示"><a href="#Function-Representations-函数表示" class="headerlink" title="Function Representations 函数表示"></a>Function Representations 函数表示</h4><p>二进制函数本质上是与特定于体系结构的机器代码和数据相对应的字节流。从这些原始输入开始，研究人员使用了多种方法来提取更高级别的信息，这些信息可以用来判断两个函数是否源自同一源代码。该列表按抽象级别的增加排序</p>
+<blockquote>
+<p><em><strong>原始字节</strong></em></p>
+<blockquote>
+<p>combine raw bytes with other information obtained from the control-flow graph (CFG) or the call graph (CG)<br>将原始字节与CFG或者CG的信息结合分析</p>
+</blockquote>
+<p><em><strong>汇编代码</strong></em></p>
+<blockquote>
+<p>using disassembled instructions as input, while others compute additional metrics such as “the number of arithmetic assembly instructions in a given function”<br>使用反汇编指令作为输入，而其他指令则计算额外的指标，如“给定函数中算术汇编指令的数量”</p>
+</blockquote>
+<p><em><strong>Normalized Assembly规范汇编</strong></em></p>
+<blockquote>
+<p>Assembly code often encodes constant values (e.g., immediate operands and absolute or relative addresses), which result in a very high number of potential combinations of operations and operands. Assembly normalization is used to abstract away some of this variability, reduce the vocabulary size, and converge all the possible variations of the same operation into a single representation.<br>汇编代码通常对常量（例如，立即数操作数和绝对或相对地址）进行编码，这会导致大量操作数和操作数的潜在组合。汇编规范化用于抽象掉一些这种可变性，减少词汇表的大小，并将同一操作的所有可能变化聚合到一个表示中。</p>
+</blockquote>
+<p><em><strong>Intermediate representations中间表示法</strong></em></p>
+<blockquote>
+<p>work on an even higher abstraction level by lifting the binary representation to an intermediate representation (IR). The use of an IR brings several advantages<br>通过将二进制表示提升到中间表示（IR），在更高的抽象级别上工作。<br>(i) 它可以统一语义等价但语法不同的指令的表示<br>(ii) 它可能会抽象出不同体系结构的不相关工件<br>(iii) 它允许应用程序分析技术来简化（并聚合）某些代码结构</p>
+</blockquote>
+<p><em><strong>Structure</strong></em></p>
+<blockquote>
+<p>许多方法试图捕捉给定函数的内部结构，或函数在整个程序中所起的作用。为了捕捉函数的内部结构，许多方法提取（过程内）控制流图CFG。一些方法使用从基本块获得的数据来丰富CFG，即属性控制流图ACFG，或从函数（例如，寄存器流图）或二进制文件中的上下文（调用图）获得的其他类型的图或信息。最后，一些技术只是从CFG提供的结构中受益，以计算替代特征，例如tracelets（CFG中连续基本块的序列）</p>
+</blockquote>
+<p><em><strong>数据流分析</strong></em></p>
+<blockquote>
+<p>在汇编级别实现算术表达式可能会采用不同的形式来实现相同的语义。为了处理这些场景，之前的工作建议首先基于数据流依赖关系计算程序切片，然后将其规范化并用作捕获函数行为的特征。</p>
+</blockquote>
+<p><em><strong>动态分析</strong></em></p>
+<blockquote>
+<p>一些方法依赖于动态分析，例如，通过执行成对的函数，并从输入和输出之间的关系中提取特征。其他方法只是从完整或部分执行跟踪中提取语义特征，而其他方法则利用仿真或混合技术</p>
+</blockquote>
+<p><em><strong>符号执行与分析</strong></em></p>
+<blockquote>
+<p>与具体的动态执行相反，有些方法依赖符号执行来完全捕获所分析函数的行为，并在所有可能的路径下确定其输入和输出之间的关系</p>
+</blockquote>
+</blockquote>
+<h4 id="选择的方法"><a href="#选择的方法" class="headerlink" title="选择的方法"></a>选择的方法</h4><ol>
+<li>Bytes fuzzy hashing: Catalog1</li>
+<li>CFG fuzzy hashing: FunctionSimSearch<br>使用SimHash算法计算图的模糊散列</li>
+<li><strong>Attributed CFG and GNN: <em>Gemini</em></strong><br>使用GNN（<strong>Structure2vec,s2v</strong>通过函数ACFG计算函数嵌入），第一个利用GNN和Siamese结构来学习函数相似性</li>
+<li><strong>Attributed CFG, GNN, and <em>GMN</em></strong><br>提出了一种新的图匹配模型来计算图对之间的相似性。作者将函数相似性作为实际用例之一进行了探索。这种方法从机器学习社区提出了两个系统安全研究人员尚未研究的前沿模型。此外，本文还显示了有希望的结果。</li>
+<li><strong>IR, data flowanalysis and neural network: <em>Zeek</em></strong></li>
+<li><strong>Assembly code embedding: <em>Asm2Vec</em></strong><br>Asm2Vec，NLP模型源自paragraph2VEC的<strong>PV-DM变体</strong>，是原始word2vec模型的扩展。Asm2Vec引入了更精细的指令级拆分和嵌入结构，以克服汇编指令词汇表外（OOV）问题的局限性。无监督，在单体架构实验中取得了最先进的结果</li>
+<li><strong>Assembly code embedding and self-attentive encoder: <em>SAFE</em></strong><br>SAFE使用Lin等人的自注意力sentence encoder编码器学习跨架构功能嵌入。这种方法代表了seq2seq模型中的NLP编码器，与Asm2Vec相比，它是专门为学习跨架构相似性而设计的</li>
+<li><strong>Assembly code embedding, CFG and GNN: <em>Massarelli</em></strong><br>使用了与Gemini相同的结构2VEC GNN，但它改变了块级特征，从手动设计的特征切换到无监督的特征。这种方法很有趣，因为它是Gemini的一种改进，它结合了指令级嵌入、基本块编码器和GNN的优点。</li>
+<li><em><strong>CodeCMR&#x2F;BinaryAI</strong></em><br>该模型将中间表示与NLP编码器相结合以获得基本块嵌入，并将GNN与图嵌入相结合。两个LSTM对函数中的字符串和整数数据进行编码。函数嵌入是三者的串联，二进制模型是端到端训练的。我们注意到，腾讯的这项工作是一位作者之前工作的后续，当与作者联系时，他们解释了新模型如何更准确。</li>
+<li><em><strong>Trex</strong></em><br>基于hierarchical transformer和micro-traces。本文介绍了一个动态组件，它可以提取函数跟踪，这是学习函数语义的基础。作者在这些轨迹上预训练ML模型，并将学习到的知识转移到语义相似的函数上。匹配阶段完全基于静态特征，而生成微轨迹的仿真只需要在预训练期间进行。这个跨架构的解决方案建立在transformer之上，transformer是NLP中最先进的深度学习模型。</li>
+</ol>
+<h4 id="机器学习方法实验评估"><a href="#机器学习方法实验评估" class="headerlink" title="机器学习方法实验评估"></a>机器学习方法实验评估</h4><p>由于不同深度神经网络的架构参数对实验的影响，不同的超参数设置，对深度学习模型进行实验评估很困难。</p>
+<blockquote>
+<ol>
+<li>在所有为函数构建嵌入向量的模型中，GNN在所有评估基准和所有任务中都达到了最佳值。</li>
+<li>大多数机器学习模型在AUC上的表现相似，但在排序指标（MRR10和recall@1)上差异很大。</li>
+<li>考虑其他嵌入模型，SAFE比构造无监督特征的GNN具有更好的AUC，在一个特定参数组中的AUC略优于Gemini。</li>
+<li>对于执行直接比较的算法，GMN是所有任务中表现最好的模型。</li>
+<li>Zeek的AUC稍低（大型函数除外），而且MRR10和召回率要低很多。</li>
+</ol>
+</blockquote>
+<p><em><strong>Comparing Trex</strong></em></p>
+<blockquote>
+<ol>
+<li>在XO任务上，Trex和Asm2Vec拥有相同的AUC，相似的MRR10和recall@1，这与其它的word2vec变种都一样。但是这些word2vec变种比GNN和GMN的结果要差一点</li>
+<li>这巩固了一个发现，即语言模型在相同的体系结构任务中很强大。然而，与Asm2Vec不同的是，Trex在XA和XA+XO任务中也保持相同的性能，这显示了transformer在（跨语言）跨架构设置中的强大功能。我们确认Trex提高了XO任务（0.94对0.90）和XA+XO任务（0.94对0.91）的安全性能。我们的测试还表明，在GPU上运行Trex的推断比我们的多处理器Asm2Vec实现（100个函数为3.92s vs.8.51s）快，但比在CPU上安全运行（100个函数为3.92s vs.1.46）慢</li>
+</ol>
+</blockquote>
+<p><em><strong>Comparing different GNNs</strong></em><br>Gemini和Li的模型都对GNN的消息传递与聚合层进行的改进，Li对GNN的改进比Gemini使用的GNN(s2v)的效果要好很多。</p>
+<p><em><strong>Comparing different feature set in GNN(s2v)</strong></em><br>Gemini使用Structure2vec这一GNN架构，手动选择特征。更复杂、更难提取的特征不一定比更基本的表示更好。200个操作码的ABoW具有Gemini的20倍特征，这导致GNN节点神经网络的输入矩阵更大。</p>
+<p><em><strong>Modelling functions using a textual encoder</strong></em></p>
+<blockquote>
+<p>SAFE使用基于指令嵌入的句子编码器，AUC优于使用无监督学习的GNN（s2v）。与Gemini相比，AUC相似，但MRR10和recall@1值要低一些。<br>SAFE在小型函数上效果更好，当最大指令长度从150增加到250时，结果也有所改善。<br>SAFE面临词汇表外（OOV）的问题，其它的方法例如InnerEye和Mirror采用了不同的反汇编规范化技术来缓解此问题。在SAFE中衡量了OOV指令的影响，x86-64是受OOV问题影响最大的体系结构（少于30%的函数没有OOV问题），可能原因在于其CISC指令集，其次是MIPS和ARM（这两者少于40%的函数含有单独的OOV词汇）。</p>
+</blockquote>
+<p><em><strong>Asm2Vec and other paragraph2vec models</strong></em></p>
+<blockquote>
+<p>Asm2Vec与paragraph2vec变体PV-DM和PV-DBOW相比，这三个模型的性能相似，与GNN相比，使用特定的单架构没有任何优势。<br>实验结果受指令词汇表大小的影响，随机游走数量的影响，并且受到许多实现细节的影响。在训练中，我们选择了1M（1.9M中的）最小间隔为5的指令，大多是数字偏移量或十六进制地址。降低阈值可以改善结果，但也增加词汇表大小与训练时间。在推导时，我们没有改变词汇表，即使这些无监督的方法可以受益于新的词汇表，而不会使结果无效。<br>三个模型共享相同的词汇表。当改变一个变量固定其他变量时，三个模型都有较高的AUC。但当考虑多个编译变量时，AUC会下降，例如XC任务，其中编译器、其版本和优化会发生变化。</p>
+</blockquote>
+<p><em><strong>Comparing efficiency</strong></em><br>不同模型的训练与测试效率，我们关注测试时间。</p>
+<blockquote>
+<p>迭代时间上，SAFE是机器学习模型中最快的，处理100个函数的时间为1.46秒。<br>GMN和GNN的运行时间类似，都最慢，但GMN只处理input中的一对函数。具有Gemini特征的GNN（s2v）比操作码特征的版本慢4倍，原因是特征提取时间更长。<br>Zeek的推导时间也受长的特征提取和处理时间的影响，是所有方法中最慢的。<br>在RNN变体中，无监督特征的GNN（s2v）速度较慢，这是因为额外的模型复杂性会延长迭代时间，类似的，Trex也由于其NPL模型的复杂性导致其迭代时间长。<br>Asm2Vec是速度最慢的，需要10次迭代才能提取新的函数嵌入。由于特殊的指令嵌入结构，Asm2Vec比其它paragraph2vec模型都慢。</p>
+</blockquote>
+<p><em><strong>CodeCMR&#x2F;BinaryAI evaluation</strong></em><br>实验准备：<br>我们重现了腾讯的CodeCMR。CodeCMR的最终目标是将二进制与源代码匹配，分离出模型中只处理函数二进制的部分。数据集由ARM和x86函数（32位和64位）组成，使用IDAPro预处理。提取的数据包括带有IDA微指令的属性化CFG、ctree整数和函数数据中的字符串。为了基准比较，我们将200个最常见的操作码的字包和80个IDA微码指令的字包作为基本块特征运行了GMN，<br>实验结果：<br>使用IDA微码指令BoW的GNN模型比使用操作码BoW的GNN模型具有更高的AUC，第二个模型对大的K值有更高的召回率。BinaryAI&#x2F;CodeCMR模型的所有指标都高于我们测试的其他模型。如果这些结果得到社区独立研究的验证，这可能是一个非常有前途的研究方向。<br><strong>创新点：</strong></p>
+<blockquote>
+</blockquote>
+<ol>
+<li>在单个模型中组合<strong>多种不同的架构</strong>（一个NLP编码器、一个GNN和两个LSTM）</li>
+<li>使用<strong>端到端</strong>策略联合训练所有内容</li>
+<li>作者表示<strong>训练策略</strong>（例如，使用距离加权抽样）和<strong>损失函数</strong>（例如，三重损失）发挥了重要作用，可以显著提高性能。</li>
+</ol>
+<hr>
+<h2 id="二、基于代码相似性比较的二进制程序漏洞检测技术研究"><a href="#二、基于代码相似性比较的二进制程序漏洞检测技术研究" class="headerlink" title="二、基于代码相似性比较的二进制程序漏洞检测技术研究"></a>二、基于代码相似性比较的二进制程序漏洞检测技术研究</h2><h3 id="基于语义学习模型的二进制代码函数级相似性比较"><a href="#基于语义学习模型的二进制代码函数级相似性比较" class="headerlink" title="基于语义学习模型的二进制代码函数级相似性比较"></a>基于语义学习模型的二进制代码函数级相似性比较</h3><blockquote>
+<ul>
+<li>特征提取和向量嵌入</li>
+<li>语义学习</li>
+</ul>
+</blockquote>
+<h4 id="（1）特征提取和向量嵌入"><a href="#（1）特征提取和向量嵌入" class="headerlink" title="（1）特征提取和向量嵌入"></a>（1）特征提取和向量嵌入</h4><blockquote>
+<ol>
+<li>指令</li>
+<li>基本块</li>
+<li>函数</li>
+</ol>
+<p>重点关注指令粒度的上下文语义<br><strong>指令粒度</strong>：skip-thoughts模型获得指令上下文语义特征<br><strong>基本块粒度</strong>：与局部结构相关的数字化结构特征<br><strong>函数粒度</strong>：图神经网络提取函数控制流图的全局信息，图自动编码器对图编码和重构</p>
+</blockquote>
+<p><em><strong>数据预处理</strong></em><br>指令规范化问题，对汇编指令中的立即数、跳转地址、内存基址进行分类处理</p>
+<blockquote>
+<p>立即数</p>
+<blockquote>
+<p>&lt;0x100 IMM1<br>0x101~0x200 IMM2<br>&gt;0x201 IMM</p>
+</blockquote>
+<p>内存基址</p>
+<blockquote>
+<p>XXX --&gt; MEM</p>
+</blockquote>
+<p>跳转地址</p>
+<blockquote>
+<p>loc_XXX --&gt; ADDR</p>
+</blockquote>
+</blockquote>
+<p><em><strong>指令上下文语义特征提取与向量嵌入</strong></em><br>指令-基本块-函数 --&gt; 单词-句子-段落</p>
+<blockquote>
+<p>skip-thoughts模型</p>
+<blockquote>
+<p>GRU</p>
+</blockquote>
+<p>指令上下文语义特征提取与表示</p>
+</blockquote>
+<p><em><strong>代码结构（基本块）特征提取和向量嵌入</strong></em><br>定义并构建语义流图的基础上，对基本块粒度的局部结构特征和函数粒度的全局结构特征进行提取和向量嵌入。</p>
+<blockquote>
+<ul>
+<li>语义流图构建</li>
+<li>基本块数字化结构特征提取</li>
+<li>函数全局结构特征提取</li>
+</ul>
+</blockquote>
+<ul>
+<li><strong>语义流图构建</strong></li>
+</ul>
+<blockquote>
+<blockquote>
+<p>定义：有向图 SFG &#x3D; (V,E,lambda,s,d)</p>
+<blockquote>
+<p>s&#x2F;d : E --&gt; V 有向边的源节点和目标节点</p>
+</blockquote>
+<p>有向边 添加标签，存在<strong>数据依赖关系</strong>或<strong>控制依赖关系</strong>为1，不存在为0<br><strong>依赖关系</strong>基于基本块节点之间的控制流图，深度优先搜索<strong>DFS</strong><br>对每个变量的定义进行回溯，若定义与使用不在同一基本块，则标记为数据依赖</p>
+</blockquote>
+</blockquote>
+<p>基本块结构体BasicBlock</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">BasicBlock</span>&#123;</span><br><span class="line">  <span class="type">int</span> id;       \\基本块id</span><br><span class="line">  <span class="type">int</span> addr;     \\基本块起始地址</span><br><span class="line">  <span class="type">char</span> *define; \\定义变量集合</span><br><span class="line">  <span class="type">char</span> *use;    \\使用变量集合</span><br><span class="line">  <span class="keyword">struct</span> <span class="title class_">BasicBlock</span> *pred;  \\前驱基本块节点</span><br><span class="line">  <span class="keyword">struct</span> <span class="title class_">BasicBlock</span> *succ;  \\后继基本块节点</span><br><span class="line">  <span class="type">int</span> isvisited;  \\是否访问</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p>构建数据流图</p>
+<blockquote>
+<p>已知：基本块集合BBset,入口基本块结构体entryB,控制流图cfg<br>求：数据流图dfg</p>
+</blockquote>
+<p>构建语义流图</p>
+<blockquote>
+<p>已知：控制流图cfg,数据流图dfg<br>求：语义流图sfg</p>
+</blockquote>
+<ul>
+<li><strong>基本块数字化结构特征提取</strong></li>
+</ul>
+<blockquote>
+<p>每个基本块提取</p>
+<blockquote>
+<p>节点介数<br>子代数</p>
+</blockquote>
+</blockquote>
+<ul>
+<li><strong>函数全局结构特征提取</strong><br>使用图自编码器对语义流图进行特征表示，编码器使用两层图卷积网络学习图的低维向量表示，解码器根据表示向量，计算两点之间存在边的概率重新生成图，使用损失函数度量生成的图和原始图之间的差异，训练编码器对图的特征表征。</li>
+</ul>
+<h4 id="（2）语义学习模型训练"><a href="#（2）语义学习模型训练" class="headerlink" title="（2）语义学习模型训练"></a>（2）语义学习模型训练</h4><p>选择<strong>孪生神经网络Siamese</strong>作为语义学习模型的基础架构。Siamese网络有两个结构相同且共享权值的子网络，它接受两个输入，使用两个子网络分别将输入映射到新的空间，形成输入在新的空间中的向量表示，使用距离度量的方式计算两个向量之间的距离，以评价两个输入的相似度。<br>语义学习模型分为语义编码层和分类识别层两个部分。</p>
+<blockquote>
+<p>语义编码层</p>
+<blockquote>
+<p>[INPUT] 不同粒度的代码特征向量<br>[OUTPUT] 待比较的两个函数的语义特征向量<br>分类识别层<br>[INPUT] 待比较的两个函数的语义特征向量<br>[OUTPUT] 两个函数的相似度得分</p>
+</blockquote>
+</blockquote>
+<ul>
+<li><strong>语义编码层</strong><br>将函数不同粒度的特征进行整合。</li>
+</ul>
+<blockquote>
+<p>已知：</p>
+<blockquote>
+<p>函数F的基本块Bi的指令粒度特征矩阵Vi<br>介数向量Ti<br>子代数向量Pi<br>函数中的基本块数目N<br>求：<br>指令粒度和基本块粒度合并后的特征D</p>
+</blockquote>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">for vi in Vi do:</span><br><span class="line">  选择对应的介数和子代数ti,pi</span><br><span class="line">  对ti和pi分别赋权值a和b</span><br><span class="line">  di=con(vi,a*ti,b*pi)</span><br><span class="line">end for</span><br><span class="line">D=(d1,d2,...,dN)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>分类识别层</strong><br>使用余弦相似度计算两个输入之间的相似值，用两个代码特征向量在向量空间中夹角的余弦值作为衡量代码差异大小的指标，用于判断函数对中的函数相似程度。</li>
+</ul>
+<h4 id="（3）实验评估"><a href="#（3）实验评估" class="headerlink" title="（3）实验评估"></a>（3）实验评估</h4><p>基于语义学习模型的函数级二进制相似性比较方法，实现了原型系统BEDetector，将代码特征学习分成离线特征提取和在线特征学习两个部分。<br>评价指标：对函数对相似性的预测是二分类问题，使用的评估指标为准确率Acc，ROC和AUC。<br>耗费时间：图结构嵌入过程中，耗费的时间与边的数目关系更为密切，对不同规模函数的时间耗费取平均，得到图嵌入时间的平均值为4.54秒。</p>
+<h3 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h3><p>论文基于语义学习模型构建了以图自编码器为基础的二进制代码相似性比对架构，使用编码器-解码器架构，在编码器使用两层GCN图卷积层进行图表示，在解码器中通过向量内积重构图计算相似性。</p>
+<ol>
+<li>在模型结构方面，可以对编码器与解码器结构进行优化。根据腾讯CodeCMR将GNN、LSTM、NLP encoder三种架构整合在一起取得了较好的结果，可以考虑综合不同的架构对整体结构进行改进。</li>
+<li>在运行效率方面，作者提到提取图结构信息的平均时间为4-5秒，该结果在面对具有更多边的图，也即面对大型二进制代码时可能会造成运行时间增加，考虑到HGT论文中针对大规模图设计的采样方法，能够在大规模图上取得效率上的提升，也是潜在的一个改进方向。</li>
+<li>在图嵌入方面，语义模型训练时采用了Siamese网络，整合不同粒度的函数特征时，是根据图节点介数与子代数的权重将不同粒度的特征进行整合。对于Siamese模型还不是很了解，但是注意到特征整合部分考虑了不同节点的重要性，可以加入注意力机制，或者采用更多的图上节点统计特征，例如图的聚类信息、图节点中心性信息。</li>
+<li>在模型组件方面，改进损失函数、抽样方法能够有效的提高模型性能，可以考虑从这些方面入手。</li>
+<li>在基准比较方面，作者提出当前二进制相似性比对缺少比较权威的数据集，并且各种模型由于其参数的不同，实验配置的不同，在效果比较方面不具有通用性。第一篇文献作者比较了十种不同的二进制相似性比较方法，有7个机器学习模型，Gemini模型作为一个实验基准，使用了。第二篇文献作者由控制流图生成语义流图，通过NLP的编码器重构图，通过重构的偏差进行相似性的比对。</li>
+</ol>
+<hr>
+<h2 id="Gemini：Neural-Network-based-Graph-Embedding-for-Cross-Platform-Binary-Code-Similarity-Detection"><a href="#Gemini：Neural-Network-based-Graph-Embedding-for-Cross-Platform-Binary-Code-Similarity-Detection" class="headerlink" title="Gemini：Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity Detection"></a>Gemini：Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity Detection</h2><h3 id="现有工作面临的问题"><a href="#现有工作面临的问题" class="headerlink" title="现有工作面临的问题"></a>现有工作面临的问题</h3><ol>
+<li>现有算法依赖于近似的图匹配算法，这些算法速度慢、不准确，并难于应用于新的任务</li>
+</ol>
+<p>基于每个二进制函数的控制流图CFG构建嵌入，并通过计算嵌入间的距离判断两个函数是否相似。<br>主要贡献：</p>
+<blockquote>
+</blockquote>
+<ul>
+<li>第一个由二进制函数生成嵌入向量的基于神经网络的方法</li>
+<li>使用Siamese模型训练嵌入模型，预训练模型可以生成嵌入向量用于后续的相似性检测</li>
+<li>提出一种再训练方法使预训练模型能够在收到额外的监督下适用于其它的任务</li>
+<li>Gemini的AUC比其它的基于图匹配的方法都要好</li>
+</ul>
+<h4 id="设计相似性检测函数的困难——跨平台二进制检索"><a href="#设计相似性检测函数的困难——跨平台二进制检索" class="headerlink" title="设计相似性检测函数的困难——跨平台二进制检索"></a>设计相似性检测函数的困难——跨平台二进制检索</h4><ul>
+<li>由于在实际应用中无法获得二进制函数的源码，因此相似性检测函数应该直接作用于二进制函数。</li>
+<li>允许不同架构不同编译条件的二进制，并且捕捉到其相同部分</li>
+<li>对于一对相似的函数应该给出高的分数，对于一对不相似地函数应该给出低的分数</li>
+<li>计算效率要高</li>
+<li>快速适应不同领域的要求</li>
+</ul>
+<p><em><strong>现有技术</strong></em></p>
+<blockquote>
+<p>成对图匹配</p>
+<blockquote>
+<p>将控制流图CFG中每个基本块的输入输出对（input-output pairs）作为特征，接着计算图的匹配性<br>discovRE被提出用于更轻量级的符号级别的特征，例如算术指令的数量，call指令的数量，来加速特征提取并提高匹配效率</p>
+</blockquote>
+<p>图嵌入</p>
+<blockquote>
+<p>为了从控制流图学习一种可索引的特征表示，需要将图表示进行编码成为嵌入向量<br>使用基于局部敏感哈希（LSH）的数据库对特征向量进行索引，以便可以在O(1)时间内执行搜索查询<br>Genius,图嵌入框架，首先从属性控制流图ACFG中提取原始特征。在ACFG中，每个顶点都是用一组属性标记的基本块，在Genius中使用了6个基本块级别的属性与两个基本块间的属性。然后将每个ACFG转换为一个高维嵌入，并使用位置敏感哈希（LSH）将其存储到哈希表中。因此，为了识别一组与查询函数相似的二元函数，我们只需要找到查询函数的相应嵌入，并在目标语料库中找到附近的嵌入。<br>重点在于如何将ACFG转化成嵌入向量，Genius采用基于码本的方法嵌入ACFG。它使用一种聚类算法来训练一个码本，该码本由为每个聚类识别的多个具有代表性的ACFG组成。<br>Genius使用二部图匹配算法测量指定ACFG和码本中每个代表ACFG之间的相似性。因此，这些相似性度量形成了指定ACFG的特征向量</p>
+</blockquote>
+<p>基于神经网络的嵌入生成</p>
+<blockquote>
+<p>更高的准确率<br>更高的嵌入效率<br>更快的离线训练</p>
+</blockquote>
+</blockquote>
+<h4 id="我们的模型"><a href="#我们的模型" class="headerlink" title="我们的模型"></a>我们的模型</h4><p>现有的图嵌入网络是为了分类任务，但是我们的模型是为了能够区分两个输入ACFG的相似性。我们设计了Siamese结构，并且在其中嵌入图嵌入网络Structure2vec，</p>
+<hr>
+<h3 id="Siamese-Signature-Verification-Using-a-“Siamese”-Time-Delay-Neural-Network"><a href="#Siamese-Signature-Verification-Using-a-“Siamese”-Time-Delay-Neural-Network" class="headerlink" title="Siamese: Signature Verification Using a “Siamese” Time Delay Neural Network"></a>Siamese: Signature Verification Using a “Siamese” Time Delay Neural Network</h3><hr>
+<h3 id="二进制代码相似性搜索研究进展"><a href="#二进制代码相似性搜索研究进展" class="headerlink" title="二进制代码相似性搜索研究进展"></a>二进制代码相似性搜索研究进展</h3>
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://example.com/2022/04/21/Paper-How%20Machine%20Learning%20is%20Solving%20the%20Binary%20Function%20Similarity%20problem/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2022/04/28/Binary%20Analysis/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Newer
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+
+        </div>
+    </div>
+
+
+
+                    
+                        <!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation">
+    <div id="sidebar-main">
+        <!-- Sidebar Header -->
+        <div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+        <i class="material-icons">clear_all</i>
+        <span class="mdl-button__ripple-container">
+            <span class="mdl-ripple">
+            </span>
+        </span>
+    </button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/logo.png" alt="Oliverttt's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        vvvyester@gmail.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+
+        <!-- Sidebar Navigation  -->
+        <ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+            
+                <li>
+                    <a href="#" target="_blank" title="Email Me">
+                        
+                            <i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    
+        <li id="sidebar-first-li">
+            <a href="/">
+                
+                    <i class="material-icons sidebar-material-icons">home</i>
+                
+                Home
+            </a>
+        </li>
+        
+    
+
+    <!-- Archives  -->
+    
+        <li class="dropdown">
+            <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+                
+                    <i class="material-icons sidebar-material-icons">inbox</i>
+                
+                    Archives
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+            <li>
+                <a class="sidebar_archives-link" href="/archives/2022/05/">May 2022<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2022/04/">April 2022<span class="sidebar_archives-count">2</span></a>
+            </ul>
+        </li>
+        
+    
+
+    <!-- Categories  -->
+    
+
+    <!-- Pages  -->
+    
+
+    <!-- Article Number  -->
+    
+</ul>
+
+
+        <!-- Sidebar Footer -->
+        <!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<!-- Sidebar Divider -->
+
+    <div class="sidebar-divider"></div>
+
+
+<!-- Theme Material -->
+
+    <a href="https://github.com/bollnh/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+        <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+            Theme - Material
+            <span class="sidebar-badge badge-circle">i</span>
+        </div>
+    </a>
+
+
+<!-- Help & Support -->
+<!--
+
+-->
+
+<!-- Feedback -->
+<!--
+
+-->
+
+<!-- About Theme -->
+<!--
+
+-->
+
+    </div>
+
+    <!-- Sidebar Image -->
+    
+
+</aside>
+
+                    
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
+
+                    <!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+    
+        <!-- Paradox Footer Left Section -->
+        <div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+        <a href="https://twitter.com/twitter" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-twitter">
+                <span class="visuallyhidden">Twitter</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Facebook -->
+    
+        <a href="https://www.facebook.com/facebook" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-facebook">
+                <span class="visuallyhidden">Facebook</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Google + -->
+    
+        <a href="https://www.google.com/" target="_blank">
+            <button class="mdl-mini-footer--social-btn social-btn footer-sns-gplus">
+                <span class="visuallyhidden">Google Plus</span>
+            </button><!--
+     --></a>
+    
+
+    <!-- Weibo -->
+    
+
+    <!-- Instagram -->
+    
+
+    <!-- Tumblr -->
+    
+
+    <!-- Github -->
+    
+
+    <!-- LinkedIn -->
+    
+
+    <!-- Zhihu -->
+    
+
+    <!-- Bilibili -->
+    
+
+    <!-- Telegram -->
+    
+
+    <!-- V2EX -->
+    
+
+    <!-- Segmentfault -->
+    
+</div>
+
+
+        <!--Copyright-->
+        <div id="copyright">
+            Copyright&nbsp;©&nbsp;<span year></span>&nbsp;Welcome
+            
+        </div>
+
+        <!-- Paradox Footer Right Section -->
+
+        <!--
+        I am glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+        It will not impact the appearance and can give developers a lot of support :)
+
+        很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+        它不会影响美观并可以给开发者很大的支持。 :)
+        -->
+
+        <div class="mdl-mini-footer--right-section">
+            <div>
+                <div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+                <div class="footer-develop-div">Theme - <a href="https://github.com/bollnh/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+            </div>
+        </div>
+    
+</footer>
+
+
+                    <!-- Import JS File -->
+
+    <script>lsloader.load("lazyload_js","/js/lazyload.min.js?wgjW/HuQG9JDgvPDPoRAng==", true)</script>
+
+
+
+    <script>lsloader.load("js_js","/js/js.min.js?LT4t6iE6m8TO1BLGGiNJqA==", true)</script>
+
+
+
+    <script>lsloader.load("np_js","/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==", true)</script>
+
+
+<script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+
+
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//.disqus.com/count.js" async></script>
+
+
+
+
+
+<!-- UC Browser Compatible -->
+<!-- <script>
+	var agent = navigator.userAgent.toLowerCase();
+	if(agent.indexOf('ucbrowser')>0) {
+		document.write('
+<link rel="stylesheet" href="/css/uc.css">
+');
+	   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+	}
+</script> -->
+
+<!-- Import prettify js  -->
+
+
+
+<!-- Window Load -->
+<!-- add class for prettify -->
+<script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+    
+</script>
+
+<!-- MathJax Load-->
+
+
+<!-- Bing Background -->
+
+
+<script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script>
+
+<!-- Custom Footer -->
+
+
+
+<script>
+    var copyrightNow = new Date().getFullYear();
+    var textContent = document.querySelector('span[year]')
+
+    copyrightSince = 0000;
+    if (copyrightSince === copyrightNow||copyrightSince === 0000) {
+        textContent.textContent = copyrightNow
+    } else {
+        textContent.textContent = copyrightSince + ' - ' + copyrightNow
+    }
+
+    (function(){
+        var scriptList = document.querySelectorAll('script[type="text/ls-javascript"]')
+
+        for (var i = 0; i < scriptList.length; ++i) {
+            var item = scriptList[i];
+            lsloader.runInlineScript(item.id,item.id);
+        }
+    })()
+console.log('\n %c © Material Theme | Version: 1.5.6 | https://github.com/bollnh/hexo-theme-material %c \n', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;', 'color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;');
+</script>
+
+                </main>
+            </div>
+        </body>
+    
+</html>
